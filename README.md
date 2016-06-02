@@ -11,7 +11,7 @@
 2. bundle update
 3. bundle exec rake db:setup
 4. bundle exec rackup -p PORT
-5. localhost:PORT/closest?lan&lon
+5. localhost:PORT/closest?lan&lon (lan - широта позиции клиента, lon - долгота)
 
 
 Документация в формате json: localhost:PORT/swagger_doc.json (пытался настроить Swagger UI, но почему-то работает только через live demo на petstore.swagger.io).
